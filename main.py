@@ -313,4 +313,4 @@ def index():
     return Response("Done", status=200)
 
 
-program.run(host='0.0.0.0', port=5000)
+program.run(debug=True)
